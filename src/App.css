@@ -21,8 +21,11 @@
 
 @media screen and (max-width: 998px) {
     .App__field {
-      width: 90vw;
-      height: 90vw;
+      width: 88vw;
+      height: 88vw;
+    }
+    .App__card {
+      box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.25), inset 4px 4px 7px rgba(0, 0, 0, 0.45);
     }
 }
 

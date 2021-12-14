@@ -11,7 +11,7 @@ function App() {
   const [activeCards,setActiveCards] = useState([]);
   const [foundPairs,setFoundPairs] = useState([]);
 
-  function flipCard(index) {
+  function openCard(index) {
     if (won) {
       setCards(shuffle([...colors, ...colors]));
       setFoundPairs([]);
@@ -24,12 +24,17 @@ function App() {
     if (activeCards.length === 1) {
       const firstIndex = activeCards[0];
       const secondsIndex = index;
-      if (cards[firstIndex] === cards[secondsIndex]) {
-        if (foundPairs.length + 4 === cards.length) {
-          setWon(true);
+      
+      if (firstIndex !== secondsIndex) {
+        if (cards[firstIndex] === cards[secondsIndex]) {
+          console.log(foundPairs.length, cards.length);
+          if (foundPairs.length + 4 === cards.length) {
+            setWon(true);
+          }
+          setFoundPairs( [...foundPairs, firstIndex, secondsIndex] );
         }
-        setFoundPairs( [...foundPairs, firstIndex, secondsIndex] );
       }
+      
       setActiveCards([...activeCards, index]);
     }
     if (activeCards.length === 2) {
@@ -47,7 +52,7 @@ function App() {
           const foundColor =  foundPairs.indexOf(index) !== -1;
           return (
             <div className={"App__card " + (openedColor ? 'opened' : '') + (foundColor ? ' found' : '')}
-                 onClick={() => flipCard(index)}>
+                 onClick={() => openCard(index)}>
               <div className="App__color" style={{background: `${card}`}}>
               </div>
             </div>

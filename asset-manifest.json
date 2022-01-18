@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/vacantiontest/static/css/main.f84ee0bd.chunk.css",
-    "main.js": "/vacantiontest/static/js/main.1ae47d48.chunk.js",
-    "main.js.map": "/vacantiontest/static/js/main.1ae47d48.chunk.js.map",
-    "runtime-main.js": "/vacantiontest/static/js/runtime-main.987edcef.js",
-    "runtime-main.js.map": "/vacantiontest/static/js/runtime-main.987edcef.js.map",
-    "static/js/2.7d31a908.chunk.js": "/vacantiontest/static/js/2.7d31a908.chunk.js",
-    "static/js/2.7d31a908.chunk.js.map": "/vacantiontest/static/js/2.7d31a908.chunk.js.map",
-    "index.html": "/vacantiontest/index.html",
-    "static/css/main.f84ee0bd.chunk.css.map": "/vacantiontest/static/css/main.f84ee0bd.chunk.css.map",
-    "static/js/2.7d31a908.chunk.js.LICENSE.txt": "/vacantiontest/static/js/2.7d31a908.chunk.js.LICENSE.txt"
+    "main.css": "/memogame/static/css/main.f84ee0bd.chunk.css",
+    "main.js": "/memogame/static/js/main.84fc538c.chunk.js",
+    "main.js.map": "/memogame/static/js/main.84fc538c.chunk.js.map",
+    "runtime-main.js": "/memogame/static/js/runtime-main.6b01b3a9.js",
+    "runtime-main.js.map": "/memogame/static/js/runtime-main.6b01b3a9.js.map",
+    "static/js/2.a4b91962.chunk.js": "/memogame/static/js/2.a4b91962.chunk.js",
+    "static/js/2.a4b91962.chunk.js.map": "/memogame/static/js/2.a4b91962.chunk.js.map",
+    "index.html": "/memogame/index.html",
+    "static/css/main.f84ee0bd.chunk.css.map": "/memogame/static/css/main.f84ee0bd.chunk.css.map",
+    "static/js/2.a4b91962.chunk.js.LICENSE.txt": "/memogame/static/js/2.a4b91962.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.987edcef.js",
-    "static/js/2.7d31a908.chunk.js",
+    "static/js/runtime-main.6b01b3a9.js",
+    "static/js/2.a4b91962.chunk.js",
     "static/css/main.f84ee0bd.chunk.css",
-    "static/js/main.1ae47d48.chunk.js"
+    "static/js/main.84fc538c.chunk.js"
   ]
 }
